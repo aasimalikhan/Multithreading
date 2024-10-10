@@ -1,0 +1,6 @@
+Design a secure vault to store money with a code
+How long does it take for the hackers to break the code
+Hacker threads brute force the code concurrently
+Police thread comes to the rescue by counting down 10 seconds
+If hackers havent cracked the vault code yet, the hackers are arrested
+Police thread also shows the progress of its arrival
