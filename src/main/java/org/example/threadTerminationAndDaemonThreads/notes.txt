@@ -1,0 +1,15 @@
+Why and whwn would we want to stop a thread?
+Threads consume resources
+Memory and kernel resources, CPU and cache
+If a thread finished its work, but the application is still running, we want to cleanup the threads resources
+If a thread is misbehaving, we want to stop it
+By default, the applicaiton will not stop as long as at least one threads is still running
+
+
+Thread.interrupt();
+-> if the thread is executing a method that throws
+
+
+Darmon thread
+Background tasks, that should not block our application from terminating
+Example: File saving thread in a Text Editor
